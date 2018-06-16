@@ -97,20 +97,20 @@ app.use('/api/Docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 //Routing instances
 
-app.use(indexRoutes);
-app.use(authRoutes);
-app.use(catalogRoutes);
-app.use("/cars", carRoutes);
-app.use("/clients", clientRoutes);
-app.use("/agency", agencyRoutes);
-app.use("/vehicles", vehicleRoutes);
-app.use("/requests", requestRoutes);
-app.use("/employees", userRoutes);
-app.use("/login", loginRoutes);
-app.use("/sales", salesRoutes);
-app.use("/comparerExt", cors(), comparerExtRoutes);
-app.use("/comparer", comparerRoutes);
-app.use("/locations", locationRoutes);
+// app.use(indexRoutes);
+// app.use(authRoutes);
+// app.use(catalogRoutes);
+// app.use("/cars", carRoutes);
+// app.use("/clients", clientRoutes);
+// app.use("/agency", agencyRoutes);
+// app.use("/vehicles", vehicleRoutes);
+// app.use("/requests", requestRoutes);
+// app.use("/employees", userRoutes);
+// app.use("/login", loginRoutes);
+// app.use("/sales", salesRoutes);
+// app.use("/comparerExt", cors(), comparerExtRoutes);
+// app.use("/comparer", comparerRoutes);
+// app.use("/locations", locationRoutes);
 app.use("/api/Clientes", clientesRouter);
 app.use("/api/Agencias", agenciasRouter);
 app.use("/api/Agentes", agentesRouter);
